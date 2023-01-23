@@ -4,7 +4,7 @@ layout: default
 
 # Connecting to AWS
 
-To get started with AWS, you will need an Amazon account. You will also need AWS credit to run the tutorial. If you are a professor or a student, you may be eligible to free credit by registering with [AWS educate](https://aws.amazon.com/education/awseducate/).
+To get started with AWS, you will need an Amazon account. You will also need AWS credit to run the tutorial.
 
 ## Set up an AWS instance
 
@@ -89,8 +89,8 @@ source ~/.bashrc
 
    ```sh
    cd ~
-   git clone https://github.com/aws/aws-fpga -b v1.4.21
-   echo "export PLATFORM_REPO_PATHS=~/aws-fpga/Vitis/aws_platform/xilinx_aws-vu9p-f1_shell-v04261818_201920_2/" >> ~/.bashrc
+   git clone https://github.com/aws/aws-fpga -b v1.4.24
+   echo "export PLATFORM_REPO_PATHS=~/aws-fpga/Vitis/aws_platform/xilinx_aws-vu9p-f1_shell-v04261818_201920_3/" >> ~/.bashrc
    echo "source /opt/xilinx/xrt/setup.sh" >> ~/.bashrc
    echo "source $XILINX_VITIS/settings64.sh" >> ~/.bashrc
    git clone https://github.com/Xilinx/xup_compute_acceleration.git
@@ -105,17 +105,6 @@ source ~/.bashrc
    - Clone this repository to get source code
    - Source XRT
    - Source AWS F1 tools
-
-1. If you are using the AWSEducate instances then execute the following to clone the *xup\_compute\_acceleration* repository. No additional variables need to be set as the provided AMI has all necessary files including `aws-fpga` repository cloning, the AWS F1 tools, Hardware Development Kit (HDK) and documentation
-
-   ```sh
-   git clone https://github.com/Xilinx/xup_compute_acceleration.git
-   ```
-
-   The previous command will: 
-   - Clone this repository to get source code and solutions
-
-For more details see: https://github.com/aws/aws-fpga/blob/master/Vitis/README.md
 
 ---------------------------------------
 <p class="copyright">Copyright&copy; 2021 Xilinx</p>

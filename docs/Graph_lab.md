@@ -24,7 +24,7 @@ After completing this lab, you will be able to:
 Clone the open source Vitis Accelerated Libraries repository in your home directory, if it is not already cloned
 
 ```sh
-git clone https://github.com/Xilinx/Vitis_Libraries.git -b v2021.1_rel --depth 1 ~/Vitis_Libraries
+git clone https://github.com/Xilinx/Vitis_Libraries.git -b v2022.2_update1 --depth 1 ~/Vitis_Libraries
 ```
 
 ### Modify some source files and set environment variables
@@ -77,7 +77,7 @@ git clone https://github.com/Xilinx/Vitis_Libraries.git -b v2021.1_rel --depth 1
    make build TARGET=sw_emu
    ```
 
-    The kernel will be compiled and device binary file (shortestPath_top.xclbin) will be built under the `build_dir.sw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_2`
+    The kernel will be compiled and device binary file (shortestPath_top.xclbin) will be built under the `build_dir.sw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_3`
 
 1. Compile the host application for the Emulation-SW using Makefile and run the application
 
@@ -85,7 +85,7 @@ git clone https://github.com/Xilinx/Vitis_Libraries.git -b v2021.1_rel --depth 1
    make run TARGET=sw_emu
    ```
 
-   The host application (host.exe) will be compiled under the `build_dir.sw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_2`. The application will then be run producing the result similar to:
+   The host application (host.exe) will be compiled under the `build_dir.sw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_3`. The application will then be run producing the result similar to:
 
    ```console
    ---------------------Shortest Path----------------
@@ -94,9 +94,9 @@ git clone https://github.com/Xilinx/Vitis_Libraries.git -b v2021.1_rel --depth 1
    Platform Name: Xilinx
    Info: Context created
    Info: Command queue created
-   Found Device=xilinx_aws-vu9p-f1_shell-v04261818_201920_2
-   INFO: Importing build_dir.sw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_2/shortestPath_top.xclbin
-   Loading: 'build_dir.sw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_2/shortestPath_top.xclbin'
+   Found Device=xilinx_aws-vu9p-f1_shell-v04261818_201920_3
+   INFO: Importing build_dir.sw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_3/shortestPath_top.xclbin
+   Loading: 'build_dir.sw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_3/shortestPath_top.xclbin'
    Info: Program created
    Info: Kernel created
    kernel has been created
@@ -144,7 +144,7 @@ git clone https://github.com/Xilinx/Vitis_Libraries.git -b v2021.1_rel --depth 1
    make build TARGET=hw_emu
    ```
 
-   The kernel will be compiled and device binary file (shortestPath_top.xclbin) will be built under the `build_dir.hw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_2`
+   The kernel will be compiled and device binary file (shortestPath_top.xclbin) will be built under the `build_dir.hw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_3`
 
 1. Compile the host application for the Emulation-HW using Makefile and run the application
 
@@ -152,7 +152,7 @@ git clone https://github.com/Xilinx/Vitis_Libraries.git -b v2021.1_rel --depth 1
    make run TARGET=hw_emu
    ```
 
-   The host application (host.exe) will be compiled under the `build_dir.hw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_2`. The application will then be run. Notice that Vivado simulator is opened and simulation waveforms are generated, and the application producing the result similar to:
+   The host application (host.exe) will be compiled under the `build_dir.hw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_3`. The application will then be run. Notice that Vivado simulator is opened and simulation waveforms are generated, and the application producing the result similar to:
 
    ```console
    ---------------------Shortest Path----------------
@@ -161,9 +161,9 @@ git clone https://github.com/Xilinx/Vitis_Libraries.git -b v2021.1_rel --depth 1
    Platform Name: Xilinx
    Info: Context created
    Info: Command queue created
-   Found Device=xilinx_aws-vu9p-f1_shell-v04261818_201920_2
-   INFO: Importing build_dir.hw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_2/shortestPath_top.xclbin
-   Loading: 'build_dir.hw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_2/shortestPath_top.xclbin'
+   Found Device=xilinx_aws-vu9p-f1_shell-v04261818_201920_3
+   INFO: Importing build_dir.hw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_3/shortestPath_top.xclbin
+   Loading: 'build_dir.hw_emu.xilinx_aws-vu9p-f1_shell-v04261818_201920_3/shortestPath_top.xclbin'
    INFO: [HW-EMU 01] Hardware emulation runs simulation underneath. Using a large data set will result in long simulation times. It is recommended that a small dataset is used for faster execution. The flow uses approximate models for Global memories and interconnect and hence the performance data generated is approximate.
    configuring penguin scheduler mode
    scheduler config ert(0), dataflow(1), slots(16), cudma(1), cuisr(0), cdma(0), cus(1)
@@ -247,9 +247,9 @@ Note that this step will take about about two hours to generate xclbin and regis
    make build TARGET=hw
    ```
 
-   The kernel will be compiled and device binary file (shortestPath_top.xclbin) will be build under the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_2`
+   The kernel will be compiled and device binary file (shortestPath_top.xclbin) will be build under the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_3`
 
-1. Once the hardware system is built producing xclbin, you will create an AFI by following the steps listed in [create an AFI](Creating_AFI.md) from the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_2` directory
+1. Once the hardware system is built producing xclbin, you will create an AFI by following the steps listed in [create an AFI](Creating_AFI.md) from the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_3` directory
 
 1. After the AFI is available, build the host application by executing from the project directory
 
@@ -257,11 +257,11 @@ Note that this step will take about about two hours to generate xclbin and regis
    make host TARGET=hw
    ```
 
-   This will create `host.exe` file in the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_2` directory
+   This will create `host.exe` file in the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_3` directory
 
-1. Copy the **xrt.ini** file from the project directory into the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_2` directory
+1. Copy the **xrt.ini** file from the project directory into the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_3` directory
 
-1. Run the application by executing the following command from the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_2` directory
+1. Run the application by executing the following command from the `build_dir.hw.xilinx_aws-vu9p-f1_shell-v04261818_201920_3` directory
 
    ```sh
    ./host.exe -xclbin ./shortestPath_top.awsxclbin -o ~/Vitis_Libraries/graph/L2/tests/shortest_path_unweighted_pred/data/data-csr-offset.mtx -c ~/Vitis_Libraries/graph/L2/tests/shortest_path_unweighted_pred/data/data-csr-indicesweights.mtx -g ~/Vitis_Libraries/graph/L2/tests/shortest_path_unweighted_pred/data/data-golden.sssp.mtx
@@ -295,7 +295,7 @@ Since compilation for hardware target will take a long time, the FPGA binary is 
    Platform Name: Xilinx
    Info: Context created
    Info: Command queue created
-   Found Device=xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+   Found Device=xilinx_aws-vu9p-f1_shell-v04261818_201920_3
    INFO: Importing ./shortestPath_top.awsxclbin
    Loading: './shortestPath_top.awsxclbin'
    Info: Program created

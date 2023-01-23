@@ -27,7 +27,7 @@ After completing this lab, you will learn to:
 
 1. Create a new application project and click **Next**
 
-1. Select `xilinx_aws-vu9p-f1_shell-v04261818_201920_2` and click **Next**
+1. Select `xilinx_aws-vu9p-f1_shell-v04261818_201920_3` and click **Next**
 
 1. Name the project **wide_vadd** and click **Next**
 

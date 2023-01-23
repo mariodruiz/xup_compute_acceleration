@@ -8,9 +8,6 @@ This document guides you through the steps to create an AWS Amazon FPGA Image (A
 
 ### Create an AFI
 
-#### AWSEducate users follow [these steps](Creating_AFI_AWSEducate.md) to create an AFI
-
-
 To execute the application on F1, the following files are needed:
 
 - Host application (executable file)

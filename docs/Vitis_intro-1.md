@@ -10,7 +10,7 @@ This lab guides you through the steps involved in creating a Vitis project using
 
 ### References
 
-For more details on the Vitis IDE see the Vitis documentation for [Creating a Vitis IDE Project](https://www.xilinx.com/html_docs/xilinx2021_1/vitis_doc/creatingvitisideproject.html#cpe1508968036414).
+For more details on the Vitis IDE see the Vitis documentation for [Creating a Vitis IDE Project](https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/Creating-a-Vitis-IDE-Project).
 
 
 ### Description of example application
@@ -58,9 +58,9 @@ After completing this lab (part 1 and part 2), you will learn how to:
 
    ![New Application Project Name](./images/Vitis_intro/project_wizard.png)
 
-1. Select `xilinx_aws-vu9p-f1_shell-v04261818_201920_2` platform and click **Next >**
+1. Select `xilinx_aws-vu9p-f1_shell-v04261818_201920_3` platform and click **Next >**
 
-   If you do not see this platform, check you followed the [lab set up instructions](setup_xup_aws_workshop.md#lab-setup) to set the `PLATFORM_REPO_PATHS` variable. You can select the platform by clicking the  `+` button and browsing to `~/aws-fpga/Vitis/aws_platform/` and selecting `xilinx_aws-vu9p-f1_shell-v04261818_201920_2`
+   If you do not see this platform, check you followed the [lab set up instructions](setup_xup_aws_workshop.md#lab-setup) to set the `PLATFORM_REPO_PATHS` variable. You can select the platform by clicking the  `+` button and browsing to `~/aws-fpga/Vitis/aws_platform/` and selecting `xilinx_aws-vu9p-f1_shell-v04261818_201920_3`
 
    ![New Application Project Platform](./images/Vitis_intro/select_platform.png)
 
@@ -133,7 +133,7 @@ After completing this lab (part 1 and part 2), you will learn how to:
    Platform Name: Xilinx
    INFO: Reading /home/centos/workspace/vadd_system/Emulation-SW/binary_container_1.xclbin
    Loading: '/home/centos/workspace/vadd_system/Emulation-SW/binary_container_1.xclbin'
-   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_3
    Device[0]: program successful!
    Running Vector add with 32768 elements
    Launching Hardware Kernel...

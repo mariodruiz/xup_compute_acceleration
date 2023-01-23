@@ -192,9 +192,9 @@ Known issues:
 
 {% include codeHeader.html %}
 ```sh
-git clone https://github.com/aws/aws-fpga -b v1.4.21 aws-fpga
+git clone https://github.com/aws/aws-fpga -b v1.4.24 aws-fpga
 git clone https://github.com/Xilinx/xup_compute_acceleration xup_compute_acceleration
-echo "export PLATFORM_REPO_PATHS=~/aws-fpga/Vitis/aws_platform/xilinx_aws-vu9p-f1_shell-v04261818_201920_2/" >> ~/.bashrc
+echo "export PLATFORM_REPO_PATHS=~/aws-fpga/Vitis/aws_platform/xilinx_aws-vu9p-f1_shell-v04261818_201920_3/" >> ~/.bashrc
 echo "source /opt/xilinx/xrt/setup.sh" >> ~/.bashrc
 echo "source $XILINX_VITIS/settings64.sh" >> ~/.bashrc
 echo "source ~/aws-fpga/vitis_setup.sh" >> ~/.bashrc
@@ -219,18 +219,6 @@ INFO: Vitis runtime check PASSED
 ```
 
 You can now proceed to [Lab 1: Introduction to Vitis Part 1](https://xilinx.github.io/xup_compute_acceleration/Vitis_intro-1.html).
-
-If you are using the AWSEducate instances then execute the following to clone the *xup\_compute\_acceleration* repository. No additional variables need to be set as the provided AMI has all necessary files including `aws-fpga` repository cloning, the AWS F1 tools, Hardware Development Kit (HDK) and documentation
-
-```sh
-git clone https://github.com/Xilinx/xup_compute_acceleration.git
-```
-
-The previous command will:
-
-- Clone this repository to get source code and solutions
-
-  For more details visit: [aws-fpga/Vitis/README.md](https://github.com/aws/aws-fpga/blob/master/Vitis/README.md)
 
 ---------------------------------------
 

@@ -27,7 +27,7 @@ After completing this lab, you will be able to:
 
 1. Select your target platform and click **Next >**
 
-    You should see `xilinx_aws-vu9p-f1_shell-v04261818_201920_2` as one of the platforms if you are continuing with previous lab, otherwise add it from `~/aws-fpga/Vitis/aws_platform`
+    You should see `xilinx_aws-vu9p-f1_shell-v04261818_201920_3` as one of the platforms if you are continuing with previous lab, otherwise add it from `~/aws-fpga/Vitis/aws_platform`
 
 1. In the *Application Project Details* page enter **optimization\_lab** in the *Application project name:* field and click **Next >**
 
@@ -137,7 +137,7 @@ In the *idct.cpp* file, locate lines 286-297. Note that two memory buffers, *mIn
 
    ```
    FPGA number of 64*int16_t blocks per transfer: 256
-   DEVICE: xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+   DEVICE: xilinx_aws-vu9p-f1_shell-v04261818_201920_3
    Loading Bitstream: ../binary_container_1.xclbin
    INFO: Loaded file
    INFO: [HW-EM 01] Hardware emulation runs simulation underneath....
@@ -345,7 +345,7 @@ In the *idct.cpp* file, locate lines 286-297. Note that two memory buffers, *mIn
 
 1. A `binary_container_1.xclbin` and `optimization_lab` application will be generated in the `optimization_lab/Hardware` directory
 
-1. Register the generated xclbin file to generate binary\_container\_1.awsxclbin by running the shell script. Follow instructions available [here](Creating_AFI_AWSEducate.md)
+1. Register the generated xclbin file to generate binary\_container\_1.awsxclbin by running the shell script. Follow instructions available [here](Creating_AFI.md)
 
 ### Run the system in hardware
 

@@ -73,7 +73,7 @@ In order to see a *Timeline Trace*, you need to enable it in the *Run configurat
    Platform Name: Xilinx
    INFO: Reading /home/ec2-user/workspace/vadd_system/Emulation-HW//binary_container_1.xclbin
    Loading: '/home/ec2-user/workspace/vadd_system/Emulation-HW//binary_container_1.xclbin'
-   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_3
    INFO: [HW-EM 01] Hardware emulation runs simulation underneath. Using a large data set will result in ...
    Device[0]: program successful!
    Running Vector add with 4096 elements
@@ -175,7 +175,7 @@ If you wish to rebuild the hardware later, see the [Appendix](#appendix-build-fu
 
    ```
    Loading: '/home/centos/workspace/vadd_system/Hardware/binary_container_1.awsxclbin'
-   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_3
    Device[0]: program successful!
    Running Vector add with 16777216 elements
    Launching Hardware Kernel...
@@ -214,7 +214,7 @@ If you wish to rebuild the hardware later, see the [Appendix](#appendix-build-fu
 
 1. In the *Explorer* view, review the `xrt.ini` file within the `vadd_system > vadd [x86] > Hardware` folder
 
-   Earlier, when you set kernel profiling and trace settings, the `xrt.ini` file is automatically generated. During the execution, this file is used to generate the profile and application timeline data which are seen using Vitis Analyzer. Find our more about this file [here](https://www.xilinx.com/html_docs/xilinx2021_1/vitis_doc/profilingapplication.html#ariaid-title3).
+   Earlier, when you set kernel profiling and trace settings, the `xrt.ini` file is automatically generated. During the execution, this file is used to generate the profile and application timeline data which are seen using Vitis Analyzer. Find our more about this file [here](https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/xrt.ini-File).
 
    ```
    [Debug]

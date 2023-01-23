@@ -23,7 +23,7 @@ This labs guides you through the steps to:
 
 This lab has been verified in the following platforms (platform containing the string 2018 are not supported)
 
-* xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+* xilinx_aws-vu9p-f1_shell-v04261818_201920_3
 * xilinx_u50_gen3x16_xdma_201920_3
 * xilinx_u55c_gen3x16_xdma_2_202110_1
 * xilinx_u200_gen3x16_xdma_1_202110_1
@@ -119,7 +119,7 @@ However, in this lab we will use the transposed direct version, which is an impr
    Platform Name: Xilinx
    INFO: Reading <path>/binary_container_1.xclbin
    Loading: '<path>/binary_container_1.xclbin'
-   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_3
    Device[0]: program successful!
    Running FIR filter with 128 samples, each sample is a 32-bit signed element
    Launching Hardware Kernels...
@@ -159,7 +159,7 @@ However, in this lab we will use the transposed direct version, which is an impr
    Platform Name: Xilinx
    INFO: Reading <path>/binary_container_1.xclbin
    Loading: '<path>/binary_container_1.xclbin'
-   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_3
    INFO: [HW-EM 01] Hardware emulation runs simulation underneath. Using a large data set will result .............
    Device[0]: program successful!
    Running FIR filter with 2048 samples, each sample is a 32-bit signed element
@@ -233,7 +233,7 @@ Since the Hardware build and AFI availability for AWS takes a considerable amoun
    Platform Name: Xilinx
    INFO: Reading binary_container_1.awsxclbin
    Loading: 'binary_container_1.awsxclbin'
-   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_2
+   Trying to program device[0]: xilinx_aws-vu9p-f1_shell-v04261818_201920_3
    Device[0]: program successful!
    Running FIR filter with 4194304 samples, each sample is a 32-bit signed element
    Launching Hardware Kernels...

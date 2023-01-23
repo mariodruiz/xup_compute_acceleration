@@ -198,8 +198,8 @@ After completing this lab, you will be able to:
    INFO: Found 1 platforms
    INFO: Selected platform 0 from Xilinx
    INFO: Found 1 devices
-   CL_DEVICE_NAME xilinx_aws-vu9p-f1_shell-v04261818_201920_2
-   Selected xilinx_aws-vu9p-f1_shell-v04261818_201920_2 as the target device
+   CL_DEVICE_NAME xilinx_aws-vu9p-f1_shell-v04261818_201920_3
+   Selected xilinx_aws-vu9p-f1_shell-v04261818_201920_3 as the target device
    INFO: loading xclbin ../binary_container_1.xclbin
    INFO: [HW-EM 01] Hardware emulation runs simulation underneath....
    INFO: Test completed successfully.
@@ -233,7 +233,7 @@ After completing this lab, you will be able to:
 
 1. A `binary_container_1.xclbin` and `optimization_lab` application will be generated in the `rtl_kernel/Hardware` directory
 
-1. Register the generated xclbin file to generate binary\_container\_1.awsxclbin by running the shell script. Follow instructions available [here](Creating_AFI_AWSEducate.md)
+1. Register the generated xclbin file to generate binary\_container\_1.awsxclbin by running the shell script. Follow instructions available [here](Creating_AFI.md)
 
 ### Run the system in hardware
 
@@ -267,8 +267,8 @@ After completing this lab, you will be able to:
    INFO: Found 1 platforms
    INFO: Selected platform 0 from Xilinx
    INFO: Found 1 devices
-   CL_DEVICE_NAME xilinx_aws-vu9p-f1_shell-v04261818_201920_2
-   Selected xilinx_aws-vu9p-f1_shell-v04261818_201920_2 as the target device
+   CL_DEVICE_NAME xilinx_aws-vu9p-f1_shell-v04261818_201920_3
+   Selected xilinx_aws-vu9p-f1_shell-v04261818_201920_3 as the target device
    INFO: loading xclbin binary_container_1.awsxclbin
    INFO: Test completed successfully.
    ```
